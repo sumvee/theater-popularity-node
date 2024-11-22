@@ -1,0 +1,20 @@
+{
+  "name": "theater-popularity-node",
+  "version": "1.0.0",
+  "description": "theater Popularity",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "theater-popularity": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "theater-popularity": "node ./bin/index.js"
+  },
+  "author": "Sumit Vig",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "yargs": "^17.7.2"
+  }
+}
